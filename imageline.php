@@ -21,8 +21,8 @@ function imagelinethick($imagen, $x1, $y1, $x2, $y2, $color, $grueso = 1)
         round($x2 + (1+$k)*$a), round($y2 - (1-$k)*$a),
         round($x2 + (1-$k)*$a), round($y2 + (1+$k)*$a),
     );
-    imagefilledpolygon($imagen, $puntos, 4, $color);  
-    return imagepolygon($imagen, $puntos, 4, $color);  
+    imagefilledpolygon($imagen, $puntos, 4, $color);
+    return imagepolygon($imagen, $puntos, 4, $color);
 }
 
 ?>
